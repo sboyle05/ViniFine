@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gold text-white p-3">
+    <nav className="bg-transparent text-white p-3 fixed w-full">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         <div className="flex items-center">
           <span className="text-xl font-semibold"><img src='https://d2e39dj8x3uchh.cloudfront.net/vinifinelogo.png' alt='logo' className='h-22'/></span>
