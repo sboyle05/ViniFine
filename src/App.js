@@ -9,19 +9,20 @@ import Navbar from './components/navbar/navbar';
 
 function App() {
   return (
+    <>
+    <video
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="absolute top-0 left-0 w-full h-full object-cover"
+    src="https://d2e39dj8x3uchh.cloudfront.net/vinifine.mp4"
+    type="video/mp4"
+  >
+    Your browser does not support the video tag.
+  </video>
     <Router>
       <section className="relative overflow-hidden h-screen w-full">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute top-0 left-0 w-full h-full object-cover"
-          src="https://d2e39dj8x3uchh.cloudfront.net/vinifine.mp4"
-          type="video/mp4"
-        >
-          Your browser does not support the video tag.
-        </video>
         <Navbar />
         <div className="relative z-10">
           <Routes>
@@ -33,6 +34,7 @@ function App() {
         </div>
       </section>
     </Router>
+    </>
   );
 }
 
