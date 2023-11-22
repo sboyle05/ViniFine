@@ -5,11 +5,12 @@ import LandingPage from './components/landingPage/landingPage';
 import About from './components/about/about';
 import Contact from './components/contact/contact';
 import Services from './components/services/services';
+import Navbar from './components/navbar/navbar';
 
 function App() {
   return (
-    <section className="custom-bg min-h-screen" style={{ backgroundImage: "url('https://d2e39dj8x3uchh.cloudfront.net/barrels1.jpg')" }}>
       <Router>
+        <Navbar/>
         <Routes>
           <Route path='/' element={<LandingPage/>}/>
           <Route path='/about' element={<About/>}/>
@@ -17,7 +18,7 @@ function App() {
           <Route path='/services' element={<Services/>}/>
         </Routes>
       </Router>
-    </section>
+
   );
 }
 
