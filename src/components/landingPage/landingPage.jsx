@@ -6,7 +6,7 @@ const LandingPage = () => {
 	return (
 
        <div className='mt-28 w-full h-full flex justify-center items-center px-4 sm:px-6 lg:px-8'>
-        <div className='bg-black bg-opacity-50 p-4 rounded-lg max-w-2xl'>
+        <div className='bg-black bg-opacity-70 p-4 rounded-lg max-w-2xl'>
         <h2 className='text-3xl text-white font-bold mb-2 text-center'>
             GRAPES, BARRELS, WINE
           </h2>
