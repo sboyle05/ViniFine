@@ -11,7 +11,7 @@ const LandingPage = () => {
             GRAPES, BARRELS, WINE
           </h2>
           <h2 className='text-2xl text-white font-bold mb-2 text-center'>
-            HELPING TO MAKE SURE THIS IS ALL YOUR CONSUMER EVER THINKS ABOUT
+            MAKING SURE THIS IS ALL YOUR CONSUMER EVER THINKS ABOUT
           </h2>
 
 					<p className='mb-4 text-white'>
