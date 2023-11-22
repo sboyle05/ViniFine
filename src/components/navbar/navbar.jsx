@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../../tailwind.css';
 
 const Navbar = () => {
@@ -39,18 +40,18 @@ const Navbar = () => {
 
 				 {/* For large screens, the links are always visible */}
          <div className="hidden lg:flex w-auto lg:items-center lg:space-x-4">
-          <a href="/" className="px-3 py-2 rounded hover:bg-gray-700 hover:text-white font-bold">Home</a>
-          <a href="services" className="px-3 py-2 rounded hover:bg-gray-700 hover:text-white font-bold">Services</a>
-          <a href="about" className="px-3 py-2 rounded hover:bg-gray-700 hover:text-white font-bold">About</a>
-          <a href="contact" className="px-3 py-2 rounded hover:bg-gray-700 hover:text-white font-bold">Contact</a>
+          <Link to="/" className="px-3 py-2 rounded hover:bg-gray-700 hover:text-white font-bold">Home</Link>
+          <Link to="services" className="px-3 py-2 rounded hover:bg-gray-700 hover:text-white font-bold">Services</Link>
+          <Link to="about" className="px-3 py-2 rounded hover:bg-gray-700 hover:text-white font-bold">About</Link>
+          <Link to="contact" className="px-3 py-2 rounded hover:bg-gray-700 hover:text-white font-bold">Contact</Link>
         </div>
 
         {/* For smaller screens, the dropdown is controlled by the isOpen state */}
         <div className={`absolute top-full left-0 right-0 w-9/10 lg:hidden ${isOpen ? 'flex' : 'hidden'} flex-col bg-blackish bg-opacity-100 p-4 mt-px mr-4 ml-4 rounded-lg`}>
-          <a href="/" className="px-3 py-2 rounded font-bold hover:bg-gray-700 hover:text-white text-center">Home</a>
-          <a href="services" className="px-3 py-2 font-bold rounded hover:bg-gray-700 hover:text-white text-center ">Services</a>
-          <a href="about" className="px-3 py-2 font-bold rounded hover:bg-gray-700 hover:text-white text-center ">About</a>
-          <a href="contact" className="px-3 py-2 font-bold rounded hover:bg-gray-700 hover:text-white text-center ">Contact</a>
+          <Link to="/" className="px-3 py-2 rounded font-bold hover:bg-gray-700 hover:text-white text-center">Home</Link>
+          <Link to="services" className="px-3 py-2 font-bold rounded hover:bg-gray-700 hover:text-white text-center ">Services</Link>
+          <Link to="about" className="px-3 py-2 font-bold rounded hover:bg-gray-700 hover:text-white text-center ">About</Link>
+          <Link to="contact" className="px-3 py-2 font-bold rounded hover:bg-gray-700 hover:text-white text-center ">Contact</Link>
         </div>
       </div>
     </nav>
