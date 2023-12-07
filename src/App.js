@@ -22,8 +22,8 @@ function App() {
     Your browser does not support the video tag.
   </video>
     <Router>
-      <section className="relative overflow-hidden h-screen w-full">
         <Navbar />
+      <section className="relative overflow-hidden h-screen w-full">
         <div className="relative z-10">
           <Routes>
             <Route path='/' element={<LandingPage />} />
