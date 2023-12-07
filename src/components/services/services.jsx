@@ -66,7 +66,7 @@ const EquipmentTable = ({ equipmentData }) => {
   const rateKeys = ['1 Day', '2 Days', '3 Days', '4 Days', '1 Week', 'Weekend'];
 
   return (
-    <section className='dataContainer'>
+    <section className='dataContainer overflow-x-auto'>
       <table>
         <thead>
           <tr>
