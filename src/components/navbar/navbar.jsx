@@ -11,13 +11,13 @@ const Navbar = () => {
 
 	return (
     <nav className="relative top-0 left-0 w-full z-50 bg-transparent text-white pt-4">
-   <div className="container mx-4 flex items-center justify-end">
+   <div className="container flex items-center justify-end">
       <div className="flex items-center">
         <span className="text-xl font-semibold">
           <img
             src='https://d2e39dj8x3uchh.cloudfront.net/vinifinelogo.png'
             alt='logo'
-            className='h-22 ml-2'
+            className='h-22 ml-4'
           />
         </span>
       </div>
