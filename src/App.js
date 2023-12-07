@@ -15,7 +15,7 @@ function App() {
     loop
     muted
     playsInline
-    className="absolute top-0 left-0 w-full h-full object-cover"
+    className="fixed top-0 left-0 w-full h-full object-cover"
     src="https://d2e39dj8x3uchh.cloudfront.net/vinifine.mp4"
     type="video/mp4"
   >
