@@ -53,3 +53,27 @@
   font-family: 'Oxygen', sans-serif;
   width: fit-content;
 }
+
+
+@media (max-width: 640px) {
+  .servicesContainer {
+    margin-left: 1vh;
+  }
+  .dataContainer table,
+  .otherDetails {
+    margin-left: 1vh;
+    margin-right: 1vh;
+  }
+  .category, .dataPoint {
+    padding: 2px;
+    font-size: 12px;
+  }
+  .otherTitle {
+    font-size: 14px;
+  }
+}
+
+
+.dataContainer {
+  overflow-x: auto;
+}
