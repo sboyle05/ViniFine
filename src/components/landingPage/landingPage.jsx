@@ -5,7 +5,7 @@ import '../../tailwind.css';
 const LandingPage = () => {
 	return (
 
-       <div className='mt-28 w-full h-full flex justify-center items-center px-4 sm:px-6 lg:px-8'>
+       <div className='mt-8 w-full h-full flex justify-center items-center px-4 sm:px-6 lg:px-8'>
         <div className='bg-blackish bg-opacity-90 p-4 rounded-lg max-w-2xl'>
         <h2 className='text-3xl text-white font-bold mb-2 text-center'>
             GRAPES, BARRELS, WINE
