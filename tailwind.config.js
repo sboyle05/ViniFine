@@ -28,7 +28,7 @@ module.exports = {
           DEFAULT: '#252525',
         },
         redish:{
-          DEFAULT: '#C1272D'
+          DEFAULT: '#C1272DCC'
         }
       },
     },

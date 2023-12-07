@@ -1,0 +1,55 @@
+
+
+
+.servicesTitle{
+  margin-top: 10vh;
+  font-size: 35px;
+  font-weight: 800;
+  color: whitesmoke;
+}
+
+
+.servicesContainer{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Oxygen', sans-serif;
+  margin-left: 4vh;
+}
+
+.dataContainer table{
+  /* border: 2px solid black; */
+  /* margin-top: 10vh; */
+  margin-left: 5vh;
+  margin-right: 5vh;
+  background-color: rgb(37, 37, 37,0.7);
+  /* padding: 10px; */
+  color: whitesmoke;
+
+}
+.indService{
+  margin-bottom: 10px;
+}
+.category{
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.dataPoint{
+  border: 2px solid black;
+  padding: 5px;
+}
+.otherTitle{
+  font-size: 16px;
+  font-weight: 700;
+}
+.otherDetails{
+  margin-top: 20px;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  background-color: rgb(37, 37, 37,0.7);
+  color: whitesmoke;
+  padding: 10px;
+  border: 2px solid black;
+  font-family: 'Oxygen', sans-serif;
+  width: fit-content;
+}

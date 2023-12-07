@@ -1,0 +1,27 @@
+.contactContainer{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Oxygen', sans-serif;
+  align-items: center;
+  justify-content: center;
+
+}
+.contactTitle{
+  font-size: 35px;
+  font-weight: 800;
+  color: whitesmoke;
+  margin-top: -15px;
+}
+
+.contactInfo{
+  margin-top: 15vh;
+  background-color: rgb(37, 37, 37,0.8);
+  padding: 30px;
+  color: whitesmoke;
+  border-radius: 15px;
+}
+
+.contactInfo a{
+  color: hsla(358, 94%, 45%);
+  margin-left: 5px;
+}
