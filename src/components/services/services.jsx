@@ -7,12 +7,13 @@ const equipmentData = [
     model: 'S4-4-20: 4 Membrane System',
     capacity: 'approx 20 gal/hr of Permeate - VA / EA Unit',
     rental_rates: {
-      '1 Day': "$375",
-      '2 Days': "$675",
-      '3 Days': "$865",
-      '4 Days': "$1162",
-      '1 Week': "$1313",
-      'Weekend': "$650"
+      // '1 Day': "$375",
+      // '2 Days': "$675",
+      // '3 Days': "$865",
+      // '4 Days': "$1162",
+      // '1 Week': "$1313",
+      // 'Weekend': "$650"
+      'Special Note': 'Call for pricing'
     }
   },
   {
@@ -28,12 +29,13 @@ const equipmentData = [
     model: 'CF8-2-200: 2 Membrane Manual',
     capacity: '150 - 220 gph',
     rental_rates: {
-      '1 Day': '$500',
-      '2 Days': '$830',
-      '3 Days': '$970',
-      '4 Days': '$1,435',
-      '1 Week': '$1,540',
-      'Weekend': '$750'
+      // '1 Day': '$500',
+      // '2 Days': '$830',
+      // '3 Days': '$970',
+      // '4 Days': '$1,435',
+      // '1 Week': '$1,540',
+      // 'Weekend': '$750'
+      'Special Note': 'Call for pricing'
     }
   },
   {
@@ -41,12 +43,13 @@ const equipmentData = [
     model: 'CF8-4-400: 4 Membrane Semi-auto',
     capacity: '300-600 gph',
     rental_rates: {
-      '1 Day': '$750',
-      '2 Days': '$1,350',
-      '3 Days': '$1,550',
-      '4 Days': '$1,800',
-      '1 Week': '$2,100',
-      'Weekend': '$1,100'
+      // '1 Day': '$750',
+      // '2 Days': '$1,350',
+      // '3 Days': '$1,550',
+      // '4 Days': '$1,800',
+      // '1 Week': '$2,100',
+      // 'Weekend': '$1,100'
+      'Special Note': 'Call for pricing'
     }
   },
   {
@@ -128,13 +131,13 @@ const ColumnRentalPricingTable = () => {
         <tr>
           <td className='dataPoint'>VA Removal</td>
           <td className='dataPoint'>8 inch</td>
-          <td className='dataPoint'>$220/week</td>
+          <td className='dataPoint'>Call for pricing</td>
 
         </tr>
         <tr>
           <td className='dataPoint'></td>
           <td className='dataPoint'>14 inch</td>
-          <td className='dataPoint'>$350/week</td>
+          <td className='dataPoint'>Call for pricing</td>
 
         </tr>
       </tbody>
@@ -159,13 +162,13 @@ const PHControlTable = () => {
         <tr>
           <td className='dataPoint'>pH Control</td>
           <td className='dataPoint'>8 inch</td>
-          <td className='dataPoint'>$220/week</td>
+          <td className='dataPoint'>Call for pricing</td>
 
         </tr>
         <tr>
           <td className='dataPoint'></td>
           <td className='dataPoint'>14 inch</td>
-          <td className='dataPoint'>$350/week</td>
+          <td className='dataPoint'>Call for pricing</td>
 
         </tr>
       </tbody>
@@ -193,8 +196,9 @@ const Services = () => {
       </section>
       <section className='otherDetails'>
         <h2 className='otherTitle'>Delivery/Collection</h2>
-        <p>$85 - Each way - Local area (25 miles radius of Walla Walla)</p>
-        <p>$2/mile for additional mileage beyond 25 miles</p>
+        {/* <p>$85 - Each way - Local area (25 miles radius of Walla Walla)</p>
+        <p>$2/mile for additional mileage beyond 25 miles</p> */}
+        <p>Delivery and collection is available, contact us for more information</p>
         </section>
     </section>
     </>
